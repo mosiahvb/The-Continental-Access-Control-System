@@ -1,0 +1,46 @@
+# Claude Code configuration
+.claude/
+
+# Sensitive documentation and user data
+users_man.md
+
+# Sensitive files - encryption keys, databases, QR codes
+final_project/mosiah_2fa_qr.png
+final_project/continental_encryption.key
+final_project/continental.db
+final_project/continental_logs.db
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs and temporary files
+*.log
+*.tmp
+.pytest_cache/
+
