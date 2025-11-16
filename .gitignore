@@ -1,6 +1,6 @@
 # Claude Code configuration
 .claude/
-
+test
 # Sensitive documentation and user data
 users_man.md
 
